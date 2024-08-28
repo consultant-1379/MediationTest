@@ -1,0 +1,40 @@
+<suite name="Suite">     
+     <test name="PM_Mediation_Test_Improved" preserve-order="true">
+       <classes>
+        <class name="com.ericsson.nms.mediation.test.cases.MediationService" />
+             <methods>
+       
+<!-- START GENERAL REGRESSION TEST SUITE  -->    
+	<include name="VerifySuccessfulNotificationAndDecompressionOfGzipFile" />
+	<include name="VerifySuccessfulErrorNotificationOfTextFilewithGZIPCompressor" /> 	
+	<include name="VerifySuccessfulNotificationOfFileCollectionRequestsForSftpNodes" /> 	
+<!-- 	<include name="VerifySuccessfulNotificationOfFileCollectionRequestsWhereLargeNumberofFilesInDirectory"	/> -->
+<!-- 	<include name="VerifySuccessfulNotificationOfFileCollectionRequestsTransferofLargeFile" /> -->
+<!--  	<include name="VerifyUnsuccessfulNotificationReadErrorSFTP" /> -->
+<!-- 	<include name="VerifyUnsuccessfulNotificationWriteErrorSFTP" /> -->
+<!-- 	<include name="VerifyUnsuccessfulNotificationReWriteError" /> -->
+<!-- 	<include name="VerifyMediationRun400ActiveJobsConcurrently" />  -->
+<!-- 	<include name="VerifyFileCollectionRequestsForCompositeDeltaWithAlreadyExpiredTimeStamp"/> -->
+<!-- 	<include name="VerifyFileCollectionRequestsForCompositeDeltaWithFutureTimeStamp"/> -->
+<!-- 	<include name="VerifyFileCollectionRequestsForCompositeDeltaWithHalfExpiredTimeStamp"/> -->
+<!-- 	<include name="VerifyFileCollectionRequestsForCompositeDeltaWithInvalidFormatJobId"/> -->
+<!-- 	<include name="VerifyFileCollectionRequestsForCompositeDeltaWithIncompleteJobId"/> -->
+<!-- 	<include name="VerifyDeltaComposite50NodesInParalell"/> -->
+<!-- 	<include name="VerifyCellTraceComposite50NodesInParalell"/> -->
+<!-- 	<include name="VerifyUeTraceComposite50NodesInParalell"/>  -->
+	
+<!-- <include name="VerifySuccessfulNotificationOfFileCollectionRequestsForFtpNodes" /> 
+     <include name="VerifySuccessfulNotificationOfFileCollectionRequestsForFtpNodesandSftpNodes" />
+	 <include name="VerifySuccessfulNotificationOfIPV6Nodes" />
+ 	 <include name="VerifySuccessfulNotificationOfFileUsingFdn" />  
+     <include name="VerifyUnsuccessfulNotificationWriteErrorFTP" />
+	 <include name="VerifyUnsuccessfulNotificationReadErrorFTP" /> -->
+
+<!-- END GENERAL REGRESSION TEST SUITE  -->   
+<!--            <include name="VerifyFtpTransferError" /> -->
+<!--            <include name=verifyAllIsDying" />   -->
+
+          </methods>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

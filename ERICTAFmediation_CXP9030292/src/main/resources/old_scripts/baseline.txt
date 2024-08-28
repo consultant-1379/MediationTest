@@ -1,0 +1,11 @@
+MediationCoreRelease=2.15.27
+MediationServiceRelease=2.14.48
+PMServiceRelease=2.14.16
+TssRelease=2.7.17
+CamelRelease=1.4.32
+DataPeristenceRelease=1.16.4
+DatapathRelease=1.4.1
+TopologySyncRelease=1.15.4
+UpgradeManagerRelease=
+ModelServiceRelease=
+PlatformIntegrationBridgeRelease=1.7.1
